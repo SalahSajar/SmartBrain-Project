@@ -1,4 +1,5 @@
 .App {
+  color:red;
   text-align: center;
   background: #1FA2FF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */

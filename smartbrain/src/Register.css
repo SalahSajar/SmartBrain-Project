@@ -1,0 +1,66 @@
+.Register_Container{
+    width:320px;
+    margin:2rem auto 0 auto;
+    border:1px solid rgba(0,0,0,.1);
+    box-shadow:0 0 5px -1px rgba(0,0,0,.5);
+    padding:0 30px;
+}
+    .Register_Container .Inner_RegisterForm{
+        padding:15px 0;
+        width:100%;
+    }
+        .Register_Container .Inner_RegisterForm h1{
+            padding:10px 0;
+            letter-spacing: 2px;
+            color:#222;
+        }
+        .Register_Container .Inner_RegisterForm .register_Form{
+            width:100%;
+            text-align: center;
+        }
+            .Register_Container .Inner_RegisterForm .register_Form div{
+                width:100%;
+                padding:10px 0;
+            }
+                .Register_Container .Inner_RegisterForm .register_Form div label{
+                    display:block;
+                    font-weight:500;
+                    font-size:.9rem;
+                    letter-spacing:2px;
+                    margin-bottom:5px;
+                    text-transform: uppercase;
+                }
+                .Register_Container .Inner_RegisterForm .register_Form div input{
+                    width:85%;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                    sans-serif;
+                    margin:0 auto;
+                    border:2px solid #000;
+                    font-size:1rem;
+                    padding:5px;
+                    background:transparent;
+                }
+            .Register_Container .Inner_RegisterForm .register_Form button{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+                font-size:1rem;
+                font-weight:500;
+                border:2px solid #000;
+                border-radius: 6px;
+                background:transparent;
+                padding:7px 13px;
+                margin-top:10px;
+                cursor: pointer;
+                letter-spacing: 1px;
+            }
+            .Register_Container .Inner_RegisterForm span{
+                color:#222;
+                padding:1px;
+                margin:5px 0;
+                display:inline-block;
+                font-size:.9rem;
+                font-weight:500;
+                cursor: pointer;
+            }
